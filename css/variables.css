@@ -1,0 +1,108 @@
+/* ============================================================
+   DESIGN TOKENS — JPN SARVODAYA VIDYALAYA
+   Indian-inspired school color palette
+   ============================================================ */
+
+:root {
+  /* Primary Colors */
+  --navy:           #1a3068;
+  --navy-dark:      #0f1f45;
+  --navy-light:     #243d80;
+  --navy-xlight:    #e8edf8;
+
+  /* Saffron / Accent */
+  --saffron:        #d4620a;
+  --saffron-light:  #e8831f;
+  --saffron-xlight: #fef0e3;
+  --saffron-hover:  #b8520a;
+
+  /* Gold / Decorative */
+  --gold:           #c89a1a;
+  --gold-light:     #f0c84a;
+  --gold-xlight:    #fef9e8;
+
+  /* Green / Supporting */
+  --green:          #2a6e47;
+  --green-light:    #3a8f5e;
+  --green-xlight:   #e8f5ee;
+
+  /* Neutrals */
+  --white:          #ffffff;
+  --ivory:          #fdfaf4;
+  --cream:          #f9f4ea;
+  --light-bg:       #f5f7fc;
+  --border:         #dde3f0;
+  --border-light:   #eef1f9;
+
+  /* Text */
+  --text-dark:      #1a1f36;
+  --text-body:      #3a4060;
+  --text-muted:     #6b7299;
+  --text-light:     #9aa3c2;
+
+  /* Shadows */
+  --shadow-xs:      0 1px 3px rgba(26,48,104,0.08);
+  --shadow-sm:      0 2px 8px rgba(26,48,104,0.10);
+  --shadow-md:      0 4px 20px rgba(26,48,104,0.12);
+  --shadow-lg:      0 8px 40px rgba(26,48,104,0.15);
+  --shadow-xl:      0 16px 60px rgba(26,48,104,0.18);
+
+  /* Saffron shadow for CTA */
+  --shadow-saffron: 0 4px 20px rgba(212,98,10,0.30);
+
+  /* Border Radius */
+  --radius-xs:    4px;
+  --radius-sm:    8px;
+  --radius-md:    12px;
+  --radius-lg:    16px;
+  --radius-xl:    24px;
+  --radius-full:  9999px;
+
+  /* Spacing Scale */
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:   12px;
+  --space-4:   16px;
+  --space-5:   20px;
+  --space-6:   24px;
+  --space-8:   32px;
+  --space-10:  40px;
+  --space-12:  48px;
+  --space-16:  64px;
+  --space-20:  80px;
+  --space-24:  96px;
+
+  /* Typography */
+  --font-display:   'Playfair Display', Georgia, serif;
+  --font-en:        'Playfair Display', Georgia, serif;
+  --font-en-body:   'DM Sans', 'Inter', sans-serif;
+  --font-en-ui:     'DM Sans', sans-serif;
+  --font-hi:        'Hind', 'Noto Sans Devanagari', sans-serif;
+
+  /* Transitions */
+  --transition-fast:   150ms ease;
+  --transition-base:   250ms ease;
+  --transition-slow:   400ms ease;
+  --transition-smooth: 600ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* Decorative */
+  --pattern-opacity: 0.035;
+  --divider-gradient: linear-gradient(90deg, transparent, var(--gold), transparent);
+
+  /* Section spacing */
+  --section-py: 80px;
+  --section-py-sm: 56px;
+
+  /* Container */
+  --container-max: 1200px;
+  --container-px: 24px;
+}
+
+/* Mobile overrides */
+@media (max-width: 768px) {
+  :root {
+    --section-py: 56px;
+    --section-py-sm: 40px;
+    --container-px: 16px;
+  }
+}

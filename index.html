@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Official website of Jai Prakash Narayan Sarvodaya Vidyalaya, Gopalpur, Bhojipura, Bareilly, Uttar Pradesh. CBSE Affiliated Senior Secondary Government School.">
+  <meta name="keywords" content="JPN Sarvodaya Vidyalaya, Jai Prakash Narayan, Bhojipura, Bareilly, CBSE school, government school, UP school, senior secondary">
+  <meta name="author" content="Jai Prakash Narayan Sarvodaya Vidyalaya">
+  <meta property="og:title" content="Jai Prakash Narayan Sarvodaya Vidyalaya, Bhojipura, Bareilly">
+  <meta property="og:description" content="CBSE Affiliated Government Senior Secondary School — Gopalpur, Bhojipura, Bareilly, Uttar Pradesh">
+  <meta property="og:type" content="website">
+  <title>Jai Prakash Narayan Sarvodaya Vidyalaya, Bhojipura, Bareilly</title>
+
+  <!-- Preload critical resources -->
+  <link rel="preload" as="image" href="images/hero.png">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+
+  <!-- Google Fonts loaded in base.css via @import -->
+</head>
+<body class="lang-en">
+
+  <!-- Skip to content (accessibility) -->
+  <a href="#main-content" class="skip-link" data-i18n="nav.home">Skip to main content</a>
+
+  <!-- ═══════════════════════════════════════════════════════
+       HEADER
+  ═══════════════════════════════════════════════════════ -->
+  <header class="site-header" role="banner">
+
+    <!-- Top Bar -->
+    <div class="header-topbar">
+      <div class="container">
+        <div class="header-topbar__inner">
+          <div class="header-topbar__info">
+            <span>🏛️ <span data-i18n="topbar.cbse">CBSE Affiliation No: 2120068</span></span>
+            <span>📍 <span data-i18n="topbar.location">Gopalpur, Bhojipura, Bareilly, UP</span></span>
+          </div>
+          <!-- Language Switcher -->
+          <div class="lang-switcher" role="group" aria-label="Language Selection">
+            <button class="lang-btn active" data-lang="en" aria-pressed="true" aria-label="Switch to English">English</button>
+            <button class="lang-btn" data-lang="hi" aria-pressed="false" aria-label="Switch to Hindi">हिन्दी</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Navbar -->
+    <div class="header-main">
+      <div class="container">
+        <div class="header-main__inner">
+
+          <!-- School Identity -->
+          <a href="#home" class="school-identity" aria-label="Jai Prakash Narayan Sarvodaya Vidyalaya — Home">
+            <img src="assets/school.jpeg" alt="School Logo" class="school-emblem" width="58" height="58" style="object-fit:contain;">
+            <div class="school-name-block">
+              <span class="school-name" data-i18n="school.name">Jai Prakash Narayan Sarvodaya Vidyalaya</span>
+              <span class="school-tagline-sub" data-i18n="school.subtitle">Gopalpur, Bhojipura, Bareilly</span>
+              <span class="school-affil" data-i18n="school.affil">CBSE Affil. No. 2120068</span>
+            </div>
+          </a>
+
+          <!-- Desktop Navigation -->
+          <nav class="nav-menu" role="navigation" aria-label="Main Navigation">
+            <a href="#home"         class="nav-link" data-i18n="nav.home">Home</a>
+            <a href="#about"        class="nav-link" data-i18n="nav.about">About Us</a>
+            <a href="#academics"    class="nav-link" data-i18n="nav.academics">Academics</a>
+            <a href="#campus"       class="nav-link" data-i18n="nav.campus">Campus</a>
+            <a href="#student-life" class="nav-link" data-i18n="nav.studentLife">Student Life</a>
+            <a href="#gallery"      class="nav-link" data-i18n="nav.gallery">Gallery</a>
+            <a href="#notices"      class="nav-link" data-i18n="nav.notices">Notices</a>
+            <a href="#contact"      class="nav-link" data-i18n="nav.contact">Contact</a>
+            <a href="#admissions"   class="nav-link nav-cta" data-i18n="nav.admissionCta">Admission Info</a>
+          </nav>
+
+          <!-- Hamburger (mobile) -->
+          <button class="hamburger" id="hamburger" aria-label="Open Navigation Menu" aria-expanded="false" aria-controls="mobile-nav">
+            <span></span><span></span><span></span>
+          </button>
+
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Overlay -->
+  <div class="nav-overlay" id="nav-overlay" role="presentation" style="display:none;"></div>
+
+  <!-- Mobile Navigation Drawer -->
+  <nav class="mobile-nav" id="mobile-nav" aria-hidden="true" aria-label="Mobile Navigation">
+    <div class="mobile-nav__header">
+      <a href="#home" class="school-identity" style="gap:12px;">
+        <img src="assets/school.jpeg" alt="School Logo" width="40" height="40" style="object-fit:contain; border-radius:4px;">
+        <span class="school-name" style="font-size:0.875rem;" data-i18n="school.shortName">JPN Sarvodaya Vidyalaya</span>
+      </a>
+      <button class="mobile-nav__close" id="nav-close" aria-label="Close Navigation">✕</button>
+    </div>
+    <a href="#home"         class="mobile-nav__link" data-i18n="nav.home">Home</a>
+    <a href="#about"        class="mobile-nav__link" data-i18n="nav.about">About Us</a>
+    <a href="#academics"    class="mobile-nav__link" data-i18n="nav.academics">Academics</a>
+    <a href="#admissions"   class="mobile-nav__link" data-i18n="nav.admissions">Admissions</a>
+    <a href="#campus"       class="mobile-nav__link" data-i18n="nav.campus">Campus</a>
+    <a href="#student-life" class="mobile-nav__link" data-i18n="nav.studentLife">Student Life</a>
+    <a href="#gallery"      class="mobile-nav__link" data-i18n="nav.gallery">Gallery</a>
+    <a href="#notices"      class="mobile-nav__link" data-i18n="nav.notices">Notices</a>
+    <a href="#contact"      class="mobile-nav__link" data-i18n="nav.contact">Contact</a>
+    <!-- Mobile language switch -->
+    <div class="mobile-nav__lang" role="group" aria-label="Language Selection">
+      <button class="lang-btn active" data-lang="en" aria-pressed="true">English</button>
+      <button class="lang-btn" data-lang="hi" aria-pressed="false">हिन्दी</button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════════════
+       MAIN CONTENT
+  ═══════════════════════════════════════════════════════ -->
+  <main id="main-content">
+
+    <!-- ── 1. HERO ─────────────────────────────────────── -->
+    <section id="home" class="hero" aria-label="School Hero">
+      <div class="hero__bg">
+        <img src="images/hero.png" alt="Jai Prakash Narayan Sarvodaya Vidyalaya campus — school building" loading="eager">
+        <div class="hero__overlay"></div>
+        <div class="hero__pattern"></div>
+      </div>
+      <div class="container">
+        <div class="hero__content">
+          <div class="hero__eyebrow" data-i18n="hero.eyebrow">Welcome to Our School</div>
+          <h1 class="hero__title">
+            <span data-i18n="hero.title">Jai Prakash Narayan</span>
+            <span data-i18n="hero.titleBold">Sarvodaya Vidyalaya</span>
+          </h1>
+          <div class="hero__tagline">
+            <span class="hero__tagline-item">
+              <span class="hero__tagline-dot"></span>
+              <span data-i18n="hero.tag1">Knowledge</span>
+            </span>
+            <span class="hero__tagline-item">
+              <span class="hero__tagline-dot"></span>
+              <span data-i18n="hero.tag2">Values</span>
+            </span>
+            <span class="hero__tagline-item">
+              <span class="hero__tagline-dot"></span>
+              <span data-i18n="hero.tag3">Discipline</span>
+            </span>
+            <span class="hero__tagline-item">
+              <span class="hero__tagline-dot"></span>
+              <span data-i18n="hero.tag4">Progress</span>
+            </span>
+          </div>
+          <p class="hero__desc" data-i18n="hero.desc">
+            Building strong foundations for learning, character and a brighter future — nurturing every student to reach their highest potential.
+          </p>
+          <div class="hero__actions">
+            <a href="#about" class="btn btn-primary" data-i18n="hero.btn1">Explore Our School</a>
+            <a href="#admissions" class="btn btn-outline-white" data-i18n="hero.btn2">Admission Information</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__scroll" aria-hidden="true">
+        <div class="hero__scroll-arrow"></div>
+      </div>
+    </section>
+
+    <!-- ── 2. QUICK INFO STRIP ──────────────────────────── -->
+    <div class="info-strip" aria-label="School Quick Facts">
+      <div class="container">
+        <div class="info-strip__grid">
+          <div class="info-strip__item">
+            <span class="info-strip__icon" aria-hidden="true">🏛️</span>
+            <div class="info-strip__text">
+              <span class="info-strip__label" data-i18n="strip.cbse_label">Affiliation</span>
+              <span class="info-strip__value" data-i18n="strip.cbse_val">CBSE Affiliated</span>
+            </div>
+          </div>
+          <div class="info-strip__item">
+            <span class="info-strip__icon" aria-hidden="true">🎓</span>
+            <div class="info-strip__text">
+              <span class="info-strip__label" data-i18n="strip.level_label">School Type</span>
+              <span class="info-strip__value" data-i18n="strip.level_val">Senior Secondary</span>
+            </div>
+          </div>
+          <div class="info-strip__item">
+            <span class="info-strip__icon" aria-hidden="true">🇮🇳</span>
+            <div class="info-strip__text">
+              <span class="info-strip__label" data-i18n="strip.govt_label">Category</span>
+              <span class="info-strip__value" data-i18n="strip.govt_val">Government School</span>
+            </div>
+          </div>
+          <div class="info-strip__item">
+            <span class="info-strip__icon" aria-hidden="true">📍</span>
+            <div class="info-strip__text">
+              <span class="info-strip__label" data-i18n="strip.loc_label">Location</span>
+              <span class="info-strip__value" data-i18n="strip.loc_val">Bareilly, Uttar Pradesh</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ── 3. PRINCIPAL'S MESSAGE ───────────────────────── -->
+    <section id="principal" class="principal-section" aria-labelledby="principal-heading">
+      <div class="container">
+        <div class="principal-layout">
+          <!-- Principal card -->
+          <div class="principal-card reveal">
+            <div class="principal-photo">
+              <img src="assets/principal.jpeg" alt="Mr. Maan Singh — Principal, Jai Prakash Narayan Sarvodaya Vidyalaya" loading="lazy">
+            </div>
+            <div class="principal-info">
+              <div class="principal-name" data-i18n="principal.name">Mr. Maan Singh</div>
+              <div class="principal-designation" data-i18n="principal.designation">Principal</div>
+            </div>
+          </div>
+          <!-- Message -->
+          <div class="principal-message reveal reveal-delay-2">
+            <div class="principal-message__eyebrow">
+              <div class="principal-message__eyebrow-line"></div>
+              <span class="principal-message__eyebrow-text" data-i18n="principal.eyebrow">From the Principal's Desk</span>
+            </div>
+            <h2 class="principal-message__title" id="principal-heading" data-i18n="principal.title">Welcome to Our School</h2>
+            <p class="principal-message__text" data-i18n="principal.p1">
+              Dear students, parents and well-wishers, welcome to Jai Prakash Narayan Sarvodaya Vidyalaya. Our school has always been committed to providing quality education rooted in Indian values, discipline and holistic development.
+            </p>
+            <p class="principal-message__text" data-i18n="principal.p2">
+              We believe that every child is gifted with unique abilities. Our dedicated team of teachers works tirelessly to nurture these abilities, ensuring that each student grows not just academically but also as a responsible, compassionate member of society.
+            </p>
+            <p class="principal-message__text" data-i18n="principal.p3">
+              I warmly invite you to explore our school and become a part of our learning community.
+            </p>
+            <div class="principal-message__signature">
+              <div class="principal-message__sig-line"></div>
+              <div>
+                <strong style="color:var(--navy); font-size:0.9375rem;" data-i18n="principal.name">Mr. Maan Singh</strong>
+                <div style="font-size:0.8125rem; color:var(--text-muted);" data-i18n="principal.designation">Principal</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 4. ABOUT SCHOOL ──────────────────────────────── -->
+    <section id="about" class="section section--light" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-layout">
+          <!-- Image side -->
+          <div class="about-image reveal">
+            <img src="images/classroom.png" alt="Students in a classroom at JPN Sarvodaya Vidyalaya" loading="lazy">
+            <div class="about-image__badge">
+              <span class="about-image__badge-value">CBSE</span>
+              <span class="about-image__badge-label" data-i18n="school.type">Government Senior Secondary School</span>
+            </div>
+          </div>
+          <!-- Content side -->
+          <div class="about-content reveal reveal-delay-2">
+            <div class="section-eyebrow" data-i18n="about.eyebrow">Our School</div>
+            <h2 class="section-title" id="about-heading" data-i18n="about.title">About Our School</h2>
+            <div class="section-divider"></div>
+            <br>
+            <p data-i18n="about.p1">
+              Jai Prakash Narayan Sarvodaya Vidyalaya is a government senior secondary school located in Gopalpur, Bhojipura, Bareilly, Uttar Pradesh. Affiliated with the Central Board of Secondary Education (CBSE), the school is committed to providing quality education to students from the local community.
+            </p>
+            <p data-i18n="about.p2">
+              The school's philosophy is rooted in the ideals of Sarvodaya — the welfare of all. We strive to build an inclusive, supportive learning environment where every student can flourish regardless of their background.
+            </p>
+            <div class="about-facts">
+              <div class="about-fact">
+                <div class="about-fact__label" data-i18n="about.f1_label">Board</div>
+                <div class="about-fact__value" data-i18n="about.f1_val">CBSE</div>
+              </div>
+              <div class="about-fact">
+                <div class="about-fact__label" data-i18n="about.f2_label">Affil. No</div>
+                <div class="about-fact__value" data-i18n="about.f2_val">2120068</div>
+              </div>
+              <div class="about-fact">
+                <div class="about-fact__label" data-i18n="about.f3_label">Medium</div>
+                <div class="about-fact__value" data-i18n="about.f3_val">Hindi</div>
+              </div>
+              <div class="about-fact">
+                <div class="about-fact__label" data-i18n="about.f4_label">Type</div>
+                <div class="about-fact__value" data-i18n="about.f4_val">Boys Only</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 5. OUR VALUES ────────────────────────────────── -->
+    <section id="values" class="section section--ivory" aria-labelledby="values-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow" data-i18n="values.eyebrow">Our Philosophy</div>
+          <h2 class="section-title" id="values-heading" data-i18n="values.title">Learning with Values</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle" data-i18n="values.subtitle">We believe education is more than academics — it is the foundation of character, discipline, and a meaningful life.</p>
+        </div>
+        <div class="values-grid">
+          <div class="icon-card reveal reveal-delay-1">
+            <span class="icon-card__icon" data-i18n="values.v1_icon" aria-hidden="true">📚</span>
+            <h3 class="icon-card__title" data-i18n="values.v1_title">Quality Education</h3>
+            <p class="icon-card__text" data-i18n="values.v1_desc">Curriculum-aligned, thoughtful teaching that empowers every student to achieve their academic best.</p>
+          </div>
+          <div class="icon-card reveal reveal-delay-2">
+            <span class="icon-card__icon" aria-hidden="true">🇮🇳</span>
+            <h3 class="icon-card__title" data-i18n="values.v2_title">Indian Values</h3>
+            <p class="icon-card__text" data-i18n="values.v2_desc">Rooted in the rich cultural heritage of India, fostering respect, integrity, and national pride.</p>
+          </div>
+          <div class="icon-card reveal reveal-delay-3">
+            <span class="icon-card__icon" aria-hidden="true">🌱</span>
+            <h3 class="icon-card__title" data-i18n="values.v3_title">Holistic Development</h3>
+            <p class="icon-card__text" data-i18n="values.v3_desc">Beyond the classroom — nurturing creativity, health, social skills and well-rounded personalities.</p>
+          </div>
+          <div class="icon-card reveal reveal-delay-4">
+            <span class="icon-card__icon" aria-hidden="true">🤝</span>
+            <h3 class="icon-card__title" data-i18n="values.v4_title">Social Responsibility</h3>
+            <p class="icon-card__text" data-i18n="values.v4_desc">Teaching students to be caring, responsible, and contributing members of the community.</p>
+          </div>
+          <div class="icon-card reveal reveal-delay-5">
+            <span class="icon-card__icon" aria-hidden="true">🎯</span>
+            <h3 class="icon-card__title" data-i18n="values.v5_title">Discipline &amp; Excellence</h3>
+            <p class="icon-card__text" data-i18n="values.v5_desc">A culture of commitment, regular habits and striving for one's personal best in every endeavour.</p>
+          </div>
+          <div class="icon-card reveal reveal-delay-6">
+            <span class="icon-card__icon" aria-hidden="true">🔬</span>
+            <h3 class="icon-card__title" data-i18n="values.v6_title">Curiosity &amp; Innovation</h3>
+            <p class="icon-card__text" data-i18n="values.v6_desc">Encouraging students to ask questions, explore ideas, and develop a love for learning.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 6. ACADEMICS ─────────────────────────────────── -->
+    <section id="academics" class="section" aria-labelledby="academics-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow" data-i18n="academics.eyebrow">Academic Programmes</div>
+          <h2 class="section-title" id="academics-heading" data-i18n="academics.title">Academic Journey</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle" data-i18n="academics.subtitle">Structured learning stages from foundational education to senior secondary level, aligned with CBSE curriculum.</p>
+        </div>
+        <div class="academics-grid">
+          <div class="academic-card reveal reveal-delay-1">
+            <div class="academic-card__header">
+              <span class="academic-card__level" data-i18n="academics.a1_level">Level I</span>
+              <span class="academic-card__icon" aria-hidden="true" data-i18n="academics.a1_icon">📖</span>
+              <h3 class="academic-card__title" data-i18n="academics.a1_title">Middle School</h3>
+            </div>
+            <div class="academic-card__body">
+              <span class="academic-card__grades" data-i18n="academics.a1_grades">Classes VI – VIII</span>
+              <p class="academic-card__desc" data-i18n="academics.a1_desc">Deepening understanding in core subjects with an introduction to Science, Social Studies, and Mathematics.</p>
+            </div>
+          </div>
+          <div class="academic-card reveal reveal-delay-2">
+            <div class="academic-card__header">
+              <span class="academic-card__level" data-i18n="academics.a2_level">Level II</span>
+              <span class="academic-card__icon" aria-hidden="true" data-i18n="academics.a2_icon">✏️</span>
+              <h3 class="academic-card__title" data-i18n="academics.a2_title">Secondary School</h3>
+            </div>
+            <div class="academic-card__body">
+              <span class="academic-card__grades" data-i18n="academics.a2_grades">Classes IX – X</span>
+              <p class="academic-card__desc" data-i18n="academics.a2_desc">Rigorous CBSE curriculum preparation leading to the Class X Board Examination.</p>
+            </div>
+          </div>
+          <div class="academic-card reveal reveal-delay-3">
+            <div class="academic-card__header">
+              <span class="academic-card__level" data-i18n="academics.a3_level">Level III</span>
+              <span class="academic-card__icon" aria-hidden="true" data-i18n="academics.a3_icon">🎓</span>
+              <h3 class="academic-card__title" data-i18n="academics.a3_title">Senior Secondary</h3>
+            </div>
+            <div class="academic-card__body">
+              <span class="academic-card__grades" data-i18n="academics.a3_grades">Classes XI – XII</span>
+              <p class="academic-card__desc" data-i18n="academics.a3_desc">Specialized streams including Arts and Science, preparing students for higher education and career pathways.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 7. CAMPUS & FACILITIES ───────────────────────── -->
+    <section id="campus" class="section section--ivory" aria-labelledby="campus-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow" data-i18n="facilities.eyebrow">Our Infrastructure</div>
+          <h2 class="section-title" id="campus-heading" data-i18n="facilities.title">Our Campus</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle" data-i18n="facilities.subtitle">A safe and well-equipped learning environment designed to support every aspect of a student's growth.</p>
+        </div>
+        <!-- Campus image -->
+        <div style="border-radius:var(--radius-xl); overflow:hidden; box-shadow:var(--shadow-md); margin-bottom:var(--space-10);" class="reveal">
+          <img src="images/campus.png" alt="JPN Sarvodaya Vidyalaya campus and playground with students" loading="lazy" style="width:100%; height:320px; object-fit:cover;">
+        </div>
+        <div class="facilities-grid">
+          <div class="icon-card reveal reveal-delay-1">
+            <span class="icon-card__icon" aria-hidden="true" data-i18n="facilities.f1_icon">🏫</span>
+            <h3 class="icon-card__title" data-i18n="facilities.f1_title">Classrooms</h3>
+            <p class="icon-card__text" data-i18n="facilities.f1_desc">Well-lit, ventilated classrooms providing a comfortable learning atmosphere.</p>
+          </div>
+          <div class="icon-card reveal reveal-delay-2">
+            <span class="icon-card__icon" aria-hidden="true" data-i18n="facilities.f2_icon">📚</span>
+            <h3 class="icon-card__title" data-i18n="facilities.f2_title">Library</h3>
+            <p class="icon-card__text" data-i18n="facilities.f2_desc">A reading space stocked with CBSE textbooks, reference books and educational resources.</p>
+          </div>
+          <div class="icon-card reveal reveal-delay-3">
+            <span class="icon-card__icon" aria-hidden="true" data-i18n="facilities.f3_icon">🔬</span>
+            <h3 class="icon-card__title" data-i18n="facilities.f3_title">Science Laboratory</h3>
+            <p class="icon-card__text" data-i18n="facilities.f3_desc">Practical lab sessions supporting the Physics, Chemistry and Biology curriculum.</p>
+          </div>
+          <div class="icon-card reveal reveal-delay-4">
+            <span class="icon-card__icon" aria-hidden="true" data-i18n="facilities.f4_icon">💻</span>
+            <h3 class="icon-card__title" data-i18n="facilities.f4_title">Computer Room</h3>
+            <p class="icon-card__text" data-i18n="facilities.f4_desc">Computer facilities to introduce digital literacy and basic computing skills.</p>
+          </div>
+          <div class="icon-card reveal reveal-delay-5">
+            <span class="icon-card__icon" aria-hidden="true" data-i18n="facilities.f5_icon">⚽</span>
+            <h3 class="icon-card__title" data-i18n="facilities.f5_title">Sports Ground</h3>
+            <p class="icon-card__text" data-i18n="facilities.f5_desc">An open ground for cricket, football, kabaddi, athletics and physical education.</p>
+          </div>
+          <div class="icon-card reveal reveal-delay-6">
+            <span class="icon-card__icon" aria-hidden="true" data-i18n="facilities.f6_icon">🎨</span>
+            <h3 class="icon-card__title" data-i18n="facilities.f6_title">Activity Areas</h3>
+            <p class="icon-card__text" data-i18n="facilities.f6_desc">Spaces for cultural activities, drawing, craft, and co-curricular programmes.</p>
+          </div>
+          <div class="icon-card reveal reveal-delay-1">
+            <span class="icon-card__icon" aria-hidden="true" data-i18n="facilities.f7_icon">🌳</span>
+            <h3 class="icon-card__title" data-i18n="facilities.f7_title">Green Campus</h3>
+            <p class="icon-card__text" data-i18n="facilities.f7_desc">Trees, gardens and green spaces creating a healthy and pleasant school environment.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 8. STUDENT LIFE ──────────────────────────────── -->
+    <section id="student-life" class="section" aria-labelledby="student-life-heading">
+      <div class="container">
+        <div class="student-life-layout">
+          <div class="student-life-content reveal">
+            <div class="section-eyebrow" data-i18n="studentLife.eyebrow">Student Experience</div>
+            <h2 class="section-title" id="student-life-heading" data-i18n="studentLife.title">Life at Our School</h2>
+            <div class="section-divider" style="margin:var(--space-4) 0;"></div>
+            <p style="color:var(--text-muted); margin-bottom:var(--space-5);" data-i18n="studentLife.subtitle">A vibrant school community where students learn, grow, and make memories beyond the classroom.</p>
+            <div class="student-life-grid">
+              <div class="student-activity">
+                <span class="student-activity__icon" aria-hidden="true" data-i18n="studentLife.s1_icon">🏃</span>
+                <div>
+                  <div class="student-activity__title" data-i18n="studentLife.s1_title">Sports &amp; Fitness</div>
+                  <div class="student-activity__desc" data-i18n="studentLife.s1_desc">Cricket, kabaddi, athletics and daily physical education.</div>
+                </div>
+              </div>
+              <div class="student-activity">
+                <span class="student-activity__icon" aria-hidden="true">🎨</span>
+                <div>
+                  <div class="student-activity__title" data-i18n="studentLife.s2_title">Art &amp; Culture</div>
+                  <div class="student-activity__desc" data-i18n="studentLife.s2_desc">Drawing, craft, folk art and cultural activities.</div>
+                </div>
+              </div>
+              <div class="student-activity">
+                <span class="student-activity__icon" aria-hidden="true">🔬</span>
+                <div>
+                  <div class="student-activity__title" data-i18n="studentLife.s3_title">Science &amp; Innovation</div>
+                  <div class="student-activity__desc" data-i18n="studentLife.s3_desc">Practical experiments and science exhibitions.</div>
+                </div>
+              </div>
+              <div class="student-activity">
+                <span class="student-activity__icon" aria-hidden="true">🇮🇳</span>
+                <div>
+                  <div class="student-activity__title" data-i18n="studentLife.s4_title">National Celebrations</div>
+                  <div class="student-activity__desc" data-i18n="studentLife.s4_desc">Independence Day, Republic Day, Gandhi Jayanti.</div>
+                </div>
+              </div>
+              <div class="student-activity">
+                <span class="student-activity__icon" aria-hidden="true">🎤</span>
+                <div>
+                  <div class="student-activity__title" data-i18n="studentLife.s5_title">School Events</div>
+                  <div class="student-activity__desc" data-i18n="studentLife.s5_desc">Annual Day, cultural programmes and competitions.</div>
+                </div>
+              </div>
+              <div class="student-activity">
+                <span class="student-activity__icon" aria-hidden="true">🌱</span>
+                <div>
+                  <div class="student-activity__title" data-i18n="studentLife.s6_title">Community Activities</div>
+                  <div class="student-activity__desc" data-i18n="studentLife.s6_desc">Social responsibility, tree plantation and community initiatives.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Image -->
+          <div class="student-life-image reveal reveal-delay-2">
+            <img src="images/assembly.png" alt="Students at morning assembly at JPN Sarvodaya Vidyalaya" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 9. ADMISSIONS ────────────────────────────────── -->
+    <section id="admissions" class="section section--ivory" aria-labelledby="admissions-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow" data-i18n="admissions.eyebrow">Join Our School</div>
+          <h2 class="section-title" id="admissions-heading" data-i18n="admissions.title">Admissions</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle" data-i18n="admissions.subtitle">We warmly welcome students seeking quality education in a disciplined, nurturing school environment.</p>
+        </div>
+        <div class="admissions-layout">
+          <!-- Steps -->
+          <div class="admission-steps reveal">
+            <div class="admission-step">
+              <div class="admission-step__num">1</div>
+              <div>
+                <h3 class="admission-step__title" data-i18n="admissions.step1_title">Eligibility</h3>
+                <p class="admission-step__desc" data-i18n="admissions.step1_desc">Students must meet the age and academic eligibility criteria as per CBSE and UP Government norms for the respective class.</p>
+              </div>
+            </div>
+            <div class="admission-step">
+              <div class="admission-step__num">2</div>
+              <div>
+                <h3 class="admission-step__title" data-i18n="admissions.step2_title">Application</h3>
+                <p class="admission-step__desc" data-i18n="admissions.step2_desc">Visit the school office to collect or enquire about the admission form. All forms must be filled and submitted as directed.</p>
+              </div>
+            </div>
+            <div class="admission-step">
+              <div class="admission-step__num">3</div>
+              <div>
+                <h3 class="admission-step__title" data-i18n="admissions.step3_title">Document Submission</h3>
+                <p class="admission-step__desc" data-i18n="admissions.step3_desc">Submit all required documents along with the completed admission form to the school office within the specified period.</p>
+              </div>
+            </div>
+            <div class="admission-step">
+              <div class="admission-step__num">4</div>
+              <div>
+                <h3 class="admission-step__title" data-i18n="admissions.step4_title">Confirmation</h3>
+                <p class="admission-step__desc" data-i18n="admissions.step4_desc">Admission will be confirmed subject to seat availability, eligibility verification, and completion of the admission process.</p>
+              </div>
+            </div>
+            <div style="margin-top:var(--space-6);">
+              <a href="#contact" class="btn btn-primary" data-i18n="admissions.btn">View Admission Information</a>
+            </div>
+          </div>
+          <!-- Sidebar cards -->
+          <div class="admission-sidebar reveal reveal-delay-2">
+            <div class="admission-card">
+              <h3 class="admission-card__title">📄 <span data-i18n="admissions.docs_title">Required Documents</span></h3>
+              <ul>
+                <li data-i18n="admissions.doc1">Birth Certificate</li>
+                <li data-i18n="admissions.doc2">Transfer Certificate (TC) from previous school</li>
+                <li data-i18n="admissions.doc3">Mark Sheet / Report Card of previous class</li>
+                <li data-i18n="admissions.doc4">Aadhaar Card (Student)</li>
+                <li data-i18n="admissions.doc5">Passport-size photographs</li>
+                <li data-i18n="admissions.doc6">Caste Certificate (if applicable)</li>
+                <li data-i18n="admissions.doc7">Residence proof / Address proof</li>
+              </ul>
+            </div>
+            <div class="admission-card" style="background:var(--navy); color:white;">
+              <h3 class="admission-card__title" style="color:var(--gold-light);">ℹ️ <span data-i18n="admissions.dates_title">Important Note</span></h3>
+              <p style="font-size:0.9rem; color:rgba(255,255,255,0.8); line-height:1.7;" data-i18n="admissions.dates_desc">
+                Admission dates, fees and seat availability are subject to the school's current schedule and UP Government guidelines. Please visit or contact the school office for the most current information.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 10. NOTICE BOARD ─────────────────────────────── -->
+    <section id="notices" class="section section--light" aria-labelledby="notices-heading">
+      <div class="container">
+        <div class="notice-board-header reveal">
+          <div>
+            <div class="section-eyebrow" data-i18n="notices.eyebrow">School Notices</div>
+            <h2 class="section-title" id="notices-heading" data-i18n="notices.title">Notice Board</h2>
+            <div class="section-divider" style="margin:var(--space-3) 0 0;"></div>
+          </div>
+          <a href="#notices" class="view-all" data-i18n="notices.viewAll">View All Notices</a>
+        </div>
+        <p class="section-subtitle" style="text-align:left; margin:0 0 var(--space-8);" data-i18n="notices.subtitle">
+          Important announcements, circulars and updates for students and parents.
+        </p>
+        <div class="notice-board">
+          <article class="notice-card reveal reveal-delay-1" aria-label="Notice 1">
+            <div class="notice-card__date" aria-hidden="true">
+              <span class="notice-card__date-day" data-i18n="notices.n1_date_day">01</span>
+              <span class="notice-card__date-month" data-i18n="notices.n1_date_mon">Aug</span>
+            </div>
+            <div class="notice-card__content">
+              <h3 class="notice-card__title" data-i18n="notices.n1_title">Admission Notice — Academic Session</h3>
+              <div class="notice-card__meta">
+                <span class="badge badge-saffron" data-i18n="notices.n1_cat">Admissions</span>
+                <span class="badge badge-green" data-i18n="notices.new">New</span>
+              </div>
+            </div>
+            <a href="#admissions" class="notice-card__view" aria-label="View admission notice" data-i18n="notices.view">View →</a>
+          </article>
+          <article class="notice-card reveal reveal-delay-2" aria-label="Notice 2">
+            <div class="notice-card__date" aria-hidden="true">
+              <span class="notice-card__date-day" data-i18n="notices.n2_date_day">28</span>
+              <span class="notice-card__date-month" data-i18n="notices.n2_date_mon">Jul</span>
+            </div>
+            <div class="notice-card__content">
+              <h3 class="notice-card__title" data-i18n="notices.n2_title">Examination Schedule — Class X &amp; XII</h3>
+              <div class="notice-card__meta">
+                <span class="badge badge-navy" data-i18n="notices.n2_cat">Examination</span>
+              </div>
+            </div>
+            <a href="#notices" class="notice-card__view" data-i18n="notices.view">View →</a>
+          </article>
+          <article class="notice-card reveal reveal-delay-3" aria-label="Notice 3">
+            <div class="notice-card__date" aria-hidden="true">
+              <span class="notice-card__date-day" data-i18n="notices.n3_date_day">15</span>
+              <span class="notice-card__date-month" data-i18n="notices.n3_date_mon">Aug</span>
+            </div>
+            <div class="notice-card__content">
+              <h3 class="notice-card__title" data-i18n="notices.n3_title">Holiday Notice — Independence Day</h3>
+              <div class="notice-card__meta">
+                <span class="badge badge-green" data-i18n="notices.n3_cat">Holiday</span>
+              </div>
+            </div>
+            <a href="#notices" class="notice-card__view" data-i18n="notices.view">View →</a>
+          </article>
+          <article class="notice-card reveal reveal-delay-4" aria-label="Notice 4">
+            <div class="notice-card__date" aria-hidden="true">
+              <span class="notice-card__date-day" data-i18n="notices.n4_date_day">10</span>
+              <span class="notice-card__date-month" data-i18n="notices.n4_date_mon">Aug</span>
+            </div>
+            <div class="notice-card__content">
+              <h3 class="notice-card__title" data-i18n="notices.n4_title">Annual Sports Day — Participation Notice</h3>
+              <div class="notice-card__meta">
+                <span class="badge badge-gold" data-i18n="notices.n4_cat">Events</span>
+              </div>
+            </div>
+            <a href="#notices" class="notice-card__view" data-i18n="notices.view">View →</a>
+          </article>
+          <article class="notice-card reveal reveal-delay-5" aria-label="Notice 5">
+            <div class="notice-card__date" aria-hidden="true">
+              <span class="notice-card__date-day" data-i18n="notices.n5_date_day">20</span>
+              <span class="notice-card__date-month" data-i18n="notices.n5_date_mon">Jul</span>
+            </div>
+            <div class="notice-card__content">
+              <h3 class="notice-card__title" data-i18n="notices.n5_title">School Circular — Parent-Teacher Meeting</h3>
+              <div class="notice-card__meta">
+                <span class="badge badge-navy" data-i18n="notices.n5_cat">General</span>
+              </div>
+            </div>
+            <a href="#notices" class="notice-card__view" data-i18n="notices.view">View →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 11. EVENTS & NEWS ────────────────────────────── -->
+    <section id="events" class="section section--ivory" aria-labelledby="events-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow" data-i18n="events.eyebrow">News &amp; Events</div>
+          <h2 class="section-title" id="events-heading" data-i18n="events.title">School News &amp; Events</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle" data-i18n="events.subtitle">Celebrations, activities and milestones from our school community.</p>
+        </div>
+        <div class="events-grid">
+          <article class="event-card reveal reveal-delay-1">
+            <img class="event-card__image" src="images/assembly.png" alt="Independence Day celebration at school" loading="lazy">
+            <div class="event-card__body">
+              <div class="event-card__date">📅 <span data-i18n="events.e1_date">15 August</span></div>
+              <h3 class="event-card__title" data-i18n="events.e1_title">Independence Day Celebration</h3>
+              <p class="event-card__text" data-i18n="events.e1_desc">Students, teachers and staff gathered to celebrate India's Independence Day with flag hoisting, cultural programmes and patriotic activities.</p>
+            </div>
+          </article>
+          <article class="event-card reveal reveal-delay-2">
+            <img class="event-card__image" src="images/campus.png" alt="Annual Sports Day at school" loading="lazy">
+            <div class="event-card__body">
+              <div class="event-card__date">📅 <span data-i18n="events.e2_date">Upcoming</span></div>
+              <h3 class="event-card__title" data-i18n="events.e2_title">Annual Sports Day</h3>
+              <p class="event-card__text" data-i18n="events.e2_desc">The annual sports meet featuring track events, cricket, kabaddi and other competitions — celebrating the spirit of sportsmanship and physical fitness.</p>
+            </div>
+          </article>
+          <article class="event-card reveal reveal-delay-3">
+            <img class="event-card__image" src="images/cultural.png" alt="Cultural programme at school" loading="lazy">
+            <div class="event-card__body">
+              <div class="event-card__date">📅 <span data-i18n="events.e3_date">Upcoming</span></div>
+              <h3 class="event-card__title" data-i18n="events.e3_title">Science Exhibition</h3>
+              <p class="event-card__text" data-i18n="events.e3_desc">Students will present creative science projects and working models, showcasing curiosity, innovation and practical learning.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 12. ACHIEVEMENTS ─────────────────────────────── -->
+    <section id="achievements" class="section" aria-labelledby="achievements-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow" data-i18n="achievements.eyebrow">Our Pride</div>
+          <h2 class="section-title" id="achievements-heading" data-i18n="achievements.title">Our Students, Our Pride</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle" data-i18n="achievements.subtitle">We celebrate every achievement of our students — in academics, sports, culture and community.</p>
+        </div>
+        <div class="achievements-grid">
+          <div class="achievement-card reveal reveal-delay-1">
+            <div class="achievement-card__icon" aria-hidden="true" data-i18n="achievements.a1_icon">🏆</div>
+            <h3 class="achievement-card__title" data-i18n="achievements.a1_title">Academic Excellence</h3>
+            <p class="achievement-card__desc" data-i18n="achievements.a1_desc">Students consistently performing well in CBSE board examinations. [Update with specific results]</p>
+          </div>
+          <div class="achievement-card reveal reveal-delay-2">
+            <div class="achievement-card__icon" aria-hidden="true" data-i18n="achievements.a2_icon">⚽</div>
+            <h3 class="achievement-card__title" data-i18n="achievements.a2_title">Sports Achievements</h3>
+            <p class="achievement-card__desc" data-i18n="achievements.a2_desc">School teams participating in district and state-level sports competitions. [Update with achievements]</p>
+          </div>
+          <div class="achievement-card reveal reveal-delay-3">
+            <div class="achievement-card__icon" aria-hidden="true" data-i18n="achievements.a3_icon">🎭</div>
+            <h3 class="achievement-card__title" data-i18n="achievements.a3_title">Cultural Programmes</h3>
+            <p class="achievement-card__desc" data-i18n="achievements.a3_desc">Students representing the school in cultural events, drawing and performing arts. [Update with details]</p>
+          </div>
+          <div class="achievement-card reveal reveal-delay-4">
+            <div class="achievement-card__icon" aria-hidden="true" data-i18n="achievements.a4_icon">🌟</div>
+            <h3 class="achievement-card__title" data-i18n="achievements.a4_title">Community Recognition</h3>
+            <p class="achievement-card__desc" data-i18n="achievements.a4_desc">School activities contributing to the local community. [Update with specific initiatives]</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 13. GALLERY ──────────────────────────────────── -->
+    <section id="gallery" class="section section--light" aria-labelledby="gallery-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow" data-i18n="gallery.eyebrow">Photo Gallery</div>
+          <h2 class="section-title" id="gallery-heading" data-i18n="gallery.title">Moments from Our School</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle" data-i18n="gallery.subtitle">A glimpse into the life, learning and celebrations at our school.</p>
+        </div>
+        <!-- Gallery filter buttons -->
+        <div class="gallery-filters reveal" role="group" aria-label="Gallery Filter">
+          <button class="gallery-filter-btn active" data-filter="all" data-i18n="gallery.filter_all">All</button>
+          <button class="gallery-filter-btn" data-filter="campus" data-i18n="gallery.filter_campus">Campus</button>
+          <button class="gallery-filter-btn" data-filter="academics" data-i18n="gallery.filter_academics">Academics</button>
+          <button class="gallery-filter-btn" data-filter="sports" data-i18n="gallery.filter_sports">Sports</button>
+          <button class="gallery-filter-btn" data-filter="events" data-i18n="gallery.filter_events">Events</button>
+          <button class="gallery-filter-btn" data-filter="activities" data-i18n="gallery.filter_activities">Activities</button>
+        </div>
+        <!-- Gallery grid -->
+        <div class="gallery-grid reveal">
+          <div class="gallery-item" data-category="campus">
+            <img src="images/hero.png" alt="School building — JPN Sarvodaya Vidyalaya" loading="lazy">
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label" data-i18n="gallery.img1">School Building</span>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="academics">
+            <img src="images/classroom.png" alt="Students in classroom learning" loading="lazy">
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label" data-i18n="gallery.img2">Classroom Learning</span>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="campus">
+            <img src="images/campus.png" alt="School campus and playground" loading="lazy">
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label" data-i18n="gallery.img3">School Campus</span>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="academics">
+            <img src="images/library.png" alt="School library with students studying" loading="lazy">
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label" data-i18n="gallery.img4">School Library</span>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="sports">
+            <img src="images/assembly.png" alt="Morning assembly at school" loading="lazy">
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label" data-i18n="gallery.img5">Morning Assembly</span>
+            </div>
+          </div>
+          <div class="gallery-item" data-category="events">
+            <img src="images/cultural.png" alt="Cultural programme at school" loading="lazy">
+            <div class="gallery-item__overlay">
+              <span class="gallery-item__label" data-i18n="gallery.img6">Cultural Programme</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 14. WHY OUR SCHOOL ───────────────────────────── -->
+    <section id="why" class="why-section" aria-labelledby="why-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow" style="color:var(--saffron-light);" data-i18n="why.eyebrow">Why Choose Us</div>
+          <h2 class="section-title" id="why-heading" style="color:var(--white);" data-i18n="why.title">A Place to Learn. A Place to Grow.</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle" style="color:rgba(255,255,255,0.72);" data-i18n="why.subtitle">Every child deserves a school where they are known, valued, and helped to succeed.</p>
+        </div>
+        <div class="why-grid">
+          <div class="why-card reveal reveal-delay-1">
+            <div class="why-card__icon" aria-hidden="true" data-i18n="why.w1_icon">📖</div>
+            <h3 class="why-card__title" data-i18n="why.w1_title">Strong Academic Foundation</h3>
+            <p class="why-card__desc" data-i18n="why.w1_desc">CBSE-aligned curriculum with dedicated, experienced teachers committed to student success.</p>
+          </div>
+          <div class="why-card reveal reveal-delay-2">
+            <div class="why-card__icon" aria-hidden="true" data-i18n="why.w2_icon">🏅</div>
+            <h3 class="why-card__title" data-i18n="why.w2_title">Values &amp; Discipline</h3>
+            <p class="why-card__desc" data-i18n="why.w2_desc">An institutional culture built on respect, responsibility, hard work and Indian values.</p>
+          </div>
+          <div class="why-card reveal reveal-delay-3">
+            <div class="why-card__icon" aria-hidden="true" data-i18n="why.w3_icon">🌱</div>
+            <h3 class="why-card__title" data-i18n="why.w3_title">Holistic Development</h3>
+            <p class="why-card__desc" data-i18n="why.w3_desc">Equal emphasis on academics, sports, culture and character to develop the whole student.</p>
+          </div>
+          <div class="why-card reveal reveal-delay-4">
+            <div class="why-card__icon" aria-hidden="true" data-i18n="why.w4_icon">🤗</div>
+            <h3 class="why-card__title" data-i18n="why.w4_title">Supportive Environment</h3>
+            <p class="why-card__desc" data-i18n="why.w4_desc">A welcoming, inclusive school community where every student feels safe, respected and valued.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── 15. CONTACT ──────────────────────────────────── -->
+    <section id="contact" class="section" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-eyebrow" data-i18n="contact.eyebrow">Get in Touch</div>
+          <h2 class="section-title" id="contact-heading" data-i18n="contact.title">Visit Our School</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle" data-i18n="contact.subtitle">We welcome students, parents and visitors. Come and experience our school in person.</p>
+        </div>
+        <div class="contact-layout">
+          <!-- Info side -->
+          <div class="contact-info reveal">
+            <h3 style="font-size:1.25rem; font-weight:800; color:var(--navy); margin-bottom:var(--space-2); font-family:var(--font-en);" data-i18n="school.name">Jai Prakash Narayan Sarvodaya Vidyalaya</h3>
+            <span class="badge badge-navy" style="margin-bottom:var(--space-5); display:inline-flex;" data-i18n="school.type">Government Senior Secondary School</span>
+            <div class="contact-info-block">
+              <div class="contact-detail">
+                <div class="contact-detail__icon" aria-hidden="true">📍</div>
+                <div>
+                  <div class="contact-detail__label" data-i18n="contact.address_label">Address</div>
+                  <div class="contact-detail__value" style="white-space:pre-line;" data-i18n="contact.address_val">Jai Prakash Narayan Sarvodaya Vidyalaya,
+Gopalpur, Bhojipura, Bareilly,
+Uttar Pradesh – 243202</div>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <div class="contact-detail__icon" aria-hidden="true">🏛️</div>
+                <div>
+                  <div class="contact-detail__label" data-i18n="contact.cbse_label">CBSE Affiliation No.</div>
+                  <div class="contact-detail__value" data-i18n="contact.cbse_val">2120068</div>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <div class="contact-detail__icon" aria-hidden="true">📞</div>
+                <div>
+                  <div class="contact-detail__label" data-i18n="contact.phone_label">Phone</div>
+                  <div class="contact-detail__value" data-i18n="contact.phone_val">[Contact Number — Please update]</div>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <div class="contact-detail__icon" aria-hidden="true">📧</div>
+                <div>
+                  <div class="contact-detail__label" data-i18n="contact.email_label">Email</div>
+                   <div class="contact-detail__value">
+                    <a href="mailto:62007@cbseshiksha.in" data-i18n="contact.email_val" style="color:var(--navy); text-decoration:underline;">62007@cbseshiksha.in</a>
+                  </div>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <div class="contact-detail__icon" aria-hidden="true">🕐</div>
+                <div>
+                  <div class="contact-detail__label" data-i18n="contact.hours_label">School Hours</div>
+                  <div class="contact-detail__value" style="white-space:pre-line;" data-i18n="contact.hours_val">Monday – Saturday
+[School Timings — Please update]</div>
+                </div>
+              </div>
+            </div>
+            <!-- Map placeholder -->
+            <div class="map-placeholder" role="img" aria-label="Map placeholder — Gopalpur, Bhojipura, Bareilly">
+              <div class="map-placeholder__icon" aria-hidden="true">🗺️</div>
+              <div class="map-placeholder__text" data-i18n="contact.map_label">📍 Gopalpur, Bhojipura, Bareilly, UP</div>
+              <div style="font-size:0.8125rem; color:var(--text-light);" data-i18n="contact.map_note">Location map — please embed Google Map</div>
+            </div>
+          </div>
+          <!-- Enquiry form -->
+          <div class="contact-form-card reveal reveal-delay-2">
+            <h3 class="contact-form-card__title" data-i18n="contact.form_title">Send an Enquiry</h3>
+            <form id="contact-form" novalidate aria-label="School Enquiry Form">
+              <div class="form-group">
+                <label class="form-label" for="contact-name" data-i18n="contact.form_name">Your Name</label>
+                <input class="form-control" type="text" id="contact-name" name="name" required autocomplete="name"
+                       data-i18n-placeholder="contact.form_name" placeholder="Your Name">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-email" data-i18n="contact.form_email">Email Address</label>
+                <input class="form-control" type="email" id="contact-email" name="email" autocomplete="email"
+                       data-i18n-placeholder="contact.form_email" placeholder="Email Address">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-phone" data-i18n="contact.form_phone">Phone Number</label>
+                <input class="form-control" type="tel" id="contact-phone" name="phone" required autocomplete="tel"
+                       data-i18n-placeholder="contact.form_phone" placeholder="Phone Number">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-class" data-i18n="contact.form_class">Enquiry About</label>
+                <input class="form-control" type="text" id="contact-class" name="enquiry_about"
+                       data-i18n-placeholder="contact.form_class" placeholder="Enquiry About (Class/Subject)">
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-message" data-i18n="contact.form_message">Your Message</label>
+                <textarea class="form-control" id="contact-message" name="message" required
+                          data-i18n-placeholder="contact.form_message" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width:100%;" id="form-submit-btn" data-i18n="contact.form_submit">Send Enquiry</button>
+            </form>
+            <div id="form-success" role="alert" aria-live="polite" style="display:none; margin-top:var(--space-5); padding:var(--space-4) var(--space-5); background:var(--green-xlight); color:var(--green); border-radius:var(--radius-md); font-weight:600; font-size:0.9375rem;" data-i18n="contact.form_success">
+              Thank you for your enquiry. We will get back to you shortly.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main><!-- /main -->
+
+  <!-- ═══════════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════════ -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-main">
+
+        <!-- Brand column -->
+        <div class="footer-brand">
+          <div style="display:flex; align-items:center; gap:12px; margin-bottom:var(--space-4);">
+            <img src="assets/school.jpeg" alt="School Logo" width="48" height="48" style="object-fit:contain; border-radius:4px; flex-shrink:0;">
+            <div>
+              <div class="footer-school-name" data-i18n="school.name">Jai Prakash Narayan Sarvodaya Vidyalaya</div>
+              <div class="footer-tagline" data-i18n="footer.tagline">Knowledge • Values • Discipline • Progress</div>
+            </div>
+          </div>
+          <p class="footer-desc" data-i18n="footer.desc">An official government senior secondary school serving the students and families of Bhojipura, Bareilly, Uttar Pradesh.</p>
+          <span class="footer-cbse" data-i18n="footer.cbse_badge">CBSE Affil. No. 2120068</span>
+          <!-- Footer lang switch -->
+          <div class="footer-lang-switcher" style="margin-top:var(--space-5);" role="group" aria-label="Language Selection">
+            <button class="footer-lang-btn active" data-lang="en" aria-pressed="true">English</button>
+            <button class="footer-lang-btn" data-lang="hi" aria-pressed="false">हिन्दी</button>
+          </div>
+        </div>
+
+        <!-- School links -->
+        <div>
+          <div class="footer-col-title" data-i18n="footer.col1">School</div>
+          <ul class="footer-links">
+            <li><a href="#about"      class="footer-link" data-i18n="footer.link_about">About Us</a></li>
+            <li><a href="#principal"  class="footer-link" data-i18n="footer.link_principal">Principal's Message</a></li>
+            <li><a href="#academics"  class="footer-link" data-i18n="footer.link_academics">Academics</a></li>
+            <li><a href="#campus"     class="footer-link" data-i18n="footer.link_campus">Campus &amp; Facilities</a></li>
+          </ul>
+        </div>
+
+        <!-- Students & Parents links -->
+        <div>
+          <div class="footer-col-title" data-i18n="footer.col2">Students &amp; Parents</div>
+          <ul class="footer-links">
+            <li><a href="#admissions" class="footer-link" data-i18n="footer.link_admissions">Admissions</a></li>
+            <li><a href="#notices"    class="footer-link" data-i18n="footer.link_notices">Notice Board</a></li>
+            <li><a href="#events"     class="footer-link" data-i18n="footer.link_events">Events</a></li>
+            <li><a href="#gallery"    class="footer-link" data-i18n="footer.link_gallery">Gallery</a></li>
+          </ul>
+        </div>
+
+        <!-- Quick links -->
+        <div>
+          <div class="footer-col-title" data-i18n="footer.col3">Quick Links</div>
+          <ul class="footer-links">
+            <li><a href="https://cbse.gov.in" target="_blank" rel="noopener noreferrer" class="footer-link" data-i18n="footer.link_cbse">CBSE Official Website</a></li>
+            <li><a href="#admissions" class="footer-link" data-i18n="footer.link_admission_info">Admission Information</a></li>
+            <li><a href="#contact"    class="footer-link" data-i18n="footer.link_contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer bottom bar -->
+      <div class="footer-bottom">
+        <p class="footer-copyright" data-i18n="footer.copyright">
+          © 2026 Jai Prakash Narayan Sarvodaya Vidyalaya, Bhojipura, Bareilly. All rights reserved.
+        </p>
+        <div class="footer-bottom-links">
+          <a href="#" class="footer-bottom-link" data-i18n="footer.privacy">Privacy Policy</a>
+          <a href="#" class="footer-bottom-link" data-i18n="footer.sitemap">Sitemap</a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+
+  <!-- ═══════════════════════════════════════════════════════
+       SCRIPTS (order matters)
+  ═══════════════════════════════════════════════════════ -->
+  <script src="js/translations.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/animations.js"></script>
+  <script>
+    // Initialize i18n after all scripts loaded
+    document.addEventListener('DOMContentLoaded', function () {
+      if (typeof i18nInit === 'function') {
+        i18nInit();
+      }
+    });
+  </script>
+
+</body>
+</html>
